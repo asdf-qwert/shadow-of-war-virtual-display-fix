@@ -1,0 +1,7 @@
+*.exe
+*.dll
+*.sow-vram-fix.original
+*.zip
+test-work/
+__pycache__/
+*.pyc
