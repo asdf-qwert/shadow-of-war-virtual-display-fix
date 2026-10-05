@@ -2,7 +2,7 @@
 
 ## Reproduced failure
 
-Analysis used Ghidra MCP and read-only runtime inspection of the supported Steam EXE. The reproduced setup used an AMD Radeon RX 9070 XT and a virtual display, with no physical output enabled on the desktop at measurement time.
+The reproduced setup used an AMD Radeon RX 9070 XT and a virtual display, with no physical output enabled on the desktop at measurement time.
 
 The game stored 0 MB in `CRenderGPUInfo + 0xb4`, with performance/memory/overall ratings `2/1/1`, and rendered at 960×540. Its monitor cache and Windows/DXGI both reported the currently selected 1920×1080 display mode correctly. The game was in borderless mode.
 
